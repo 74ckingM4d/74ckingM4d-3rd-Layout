@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Monthsary Slide 1</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center border-4 border-blue-400">
+  <div class="w-[1000px] h-[700px] bg-[#f5f3ee] rounded-3xl shadow-lg flex flex-row items-center justify-between mx-auto relative overflow-hidden">
+
+    <button onclick="window.location.href='index.html'" class="absolute left-20 top-8 transform -translate-x-1/2 gap-2 px-6 py-2 rounded-full bg-white shadow text-orange-700 font-semibold hover:bg-orange-50 transition pointer">
+      <span></span> ←
+    </button>
+
+    <!-- Left Section -->
+    <div class="flex flex-col justify-center items-center w-1/2 h-full">
+      <div class="bg-gray-400 bg-opacity-60 rounded-2xl p-8 w-[370px] h-[420px] flex flex-col justify-center shadow-lg">
+        <h2 class="text-4xl font-bold mb-4 text-white" style="font-family: 'Lobster', cursive;">
+          Happy Monthsary
+        </h2>
+        <p class="text-white text-base leading-relaxed">
+          From the moment I met you, I know that there was something special about you. You have brought so much joy, laughter, and happiness into my life, and I feel so incredibly lucky to have you by my side.
+        </p>
+      </div>
+      <!-- Audio below the card -->
+      <div class="mt-6 flex justify-center w-full">
+        <audio controls loop class="w-64">
+          <source src="Saksi ang Langit (1).mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <!-- Right Section -->
+    <div class="flex flex-col items-center justify-center w-1/2 h-full relative">
+      <!-- Images stack -->
+      <div class="absolute top-16 left-24">
+        <img src="/Images/Pic2.jpg" alt="Photo 1" class="rounded-lg shadow-lg w-36 h-36 object-cover border-4 border-white" />
+      </div>
+      <div class="absolute top-44 left-44">
+        <img src="/Images/Pic1.jpg" alt="Photo 2" class="rounded-lg shadow-lg w-36 h-36 object-cover border-4 border-white" />
+      </div>
+      <div class="absolute top-72 left-24">
+        <img src="/Images/Pic3.jpeg" alt="Photo 3" class="rounded-lg shadow-lg w-36 h-36 object-cover border-4 border-white" />
+      </div>
+      <div class="absolute top-[25rem] left-44">
+        <img src="/Images/Pic4.jpg" alt="Photo 4" class="rounded-lg shadow-lg w-36 h-36 object-cover border-4 border-white" />
+      </div>
+      <!-- Flower image -->
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjRsOTl6MnBjaW0xcWphYnA5NXozd3RscTF3dHp0aWJ5aTU4bm9nbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MnkVb2TyZ08mZEkhUU/giphy.gif" alt="Flower" class="absolute right-12 top-5 transform rotate-[-15deg] w-32 select-none pointer-events-none" />
+      <!-- Love You text -->
+      <span class="absolute left-56 bottom-24 text-yellow-600 text-3xl font-[cursive] rotate-[-15deg] select-none pointer-events-none">I Love you</span>
+    </div>
+    <!-- Next Button -->
+    <button onclick="window.location.href='slide2.html'" class="absolute left-1/2 bottom-8 transform -translate-x-1/2 flex items-center gap-2 px-6 py-2 rounded-full bg-white shadow text-orange-700 font-semibold hover:bg-orange-50 transition">
+      <span>→</span> Next
+    </button>
+  </div>
+</body>
+</html>
